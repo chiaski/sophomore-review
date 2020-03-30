@@ -1,3 +1,31 @@
+/* COLORS */
+/* MAIN */
+body {
+  background: #1b1b1d;
+  color: #f2f7f8;
+}
 
+#work {
+  padding: 10vh 0;
+}
+
+.piece {
+  margin-bottom: 100px;
+}
+
+.website-container {
+  position: relative;
+  overflow: hidden;
+  min-width: 800px;
+  height: 600px;
+}
+.website-container iframe {
+  position: absolute;
+  left: -100px;
+  border: 0;
+  box-shadow: 0 0 20px #000;
+  min-width: 1000px;
+  height: 100%;
+}
 
 /*# sourceMappingURL=main.css.map */

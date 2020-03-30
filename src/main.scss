@@ -1,0 +1,50 @@
+
+
+
+
+/* COLORS */
+
+
+$bg: #1b1b1d;
+
+$text: #f2f7f8;
+
+/* MAIN */
+
+
+body{
+    background: $bg;
+    color: $text;
+}
+
+
+#work{
+    padding:10vh 0;
+}
+
+
+.piece{
+    margin-bottom:100px;
+}
+
+
+.website-container{
+    
+    position: relative;
+    overflow: hidden;
+    min-width:800px;
+    height:600px;
+
+    
+    iframe{
+        position: absolute;
+        left:-100px;
+        border: 0;
+        box-shadow: 0 0 20px #000;
+        min-width: 1000px;
+        height:100%;
+    }
+    
+    
+}
+
