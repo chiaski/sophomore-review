@@ -5,6 +5,13 @@ body {
   color: #f2f7f8;
 }
 
+#intro {
+  min-height: 50%;
+}
+#intro h1 {
+  margin: 0;
+}
+
 #work {
   padding: 10vh 0;
 }

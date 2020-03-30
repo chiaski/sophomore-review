@@ -18,6 +18,13 @@ body{
 }
 
 
+#intro{
+    min-height:50%;
+    h1{
+        margin:0;
+    }
+}
+
 #work{
     padding:10vh 0;
 }
@@ -26,6 +33,9 @@ body{
 .piece{
     margin-bottom:100px;
 }
+
+
+
 
 
 .website-container{
