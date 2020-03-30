@@ -5,6 +5,11 @@ body {
   color: #717474;
 }
 
+.box-inner {
+  margin: auto;
+  text-align: center;
+}
+
 #intro {
   min-height: 50%;
 }
@@ -17,14 +22,36 @@ body {
 }
 
 .piece {
+  margin: auto;
   margin-bottom: 100px;
+  max-width: 95%;
+  text-align: center;
+}
+.piece p {
+  max-width: 80%;
+  margin: auto;
+  padding: 2em 0;
+}
+
+.video-container {
+  margin: auto;
+  text-align: center;
+}
+.video-container iframe {
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  max-width: 90%;
 }
 
 .website-container {
+  margin: auto;
   position: relative;
   overflow: hidden;
-  min-width: 800px;
+  width: 800px;
   height: 600px;
+  max-width: 90%;
+  text-align: center;
 }
 .website-container iframe {
   position: absolute;
@@ -32,6 +59,7 @@ body {
   border: 0;
   box-shadow: 0 0 20px #000;
   min-width: 1000px;
+  margin: auto;
   height: 100%;
 }
 
