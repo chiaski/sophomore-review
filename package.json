@@ -1,0 +1,28 @@
+{
+  "name": "sophomore-review",
+  "version": "1.0.0",
+  "description": "sopho review",
+  "main": "index.js",
+  "dependencies": {
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "sass": "^1.26.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-sass": "sass --watch src:html/css",
+    "watch-pug": "pug -w ./src -o ./html -P"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiaski/Girls.ph.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chiaski/Girls.ph/issues"
+  },
+  "homepage": "https://github.com/chiaski/Girls.ph#readme"
+}
+s
