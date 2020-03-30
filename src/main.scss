@@ -31,12 +31,14 @@ body{
 }
 
 #work{
+    box-sizing: border-box;
     padding:10vh 0;
 }
 
 
 .piece{
     margin: auto;
+    box-sizing: border-box;
     margin-bottom:100px;
     max-width:95%;
     text-align: center;
@@ -51,6 +53,30 @@ body{
     
 }
 
+
+.collage-container{
+    
+    margin: auto;
+    overflow-x:scroll;
+    width:90%;
+    max-width:800px;
+    
+    .collage-inner{
+        width:1000px;
+    }
+    
+    img{
+        max-width:90%;
+    }
+    
+    img.tabloid{
+        display: inline;
+        height:400px;
+        margin: 0 2em;
+    }
+    
+    
+}
 
 
 .video-container{
