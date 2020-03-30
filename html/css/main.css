@@ -1,8 +1,32 @@
 /* COLORS */
 /* MAIN */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #1b1b1d;
   color: #717474;
+}
+
+#menu {
+  position: fixed;
+  margin: 1em;
+  z-index: 9;
+}
+#menu strong {
+  padding: 0 0.5em;
+}
+#menu a {
+  display: block;
+  color: #717474;
+  text-decoration: none;
+  margin-bottom: 0.5em;
+  padding: 0.25em;
+  cursor: e-resize;
+}
+#menu a:hover {
+  color: #c6cbcb;
 }
 
 .box-inner {
@@ -35,6 +59,10 @@ body {
   padding: 2em 0;
 }
 
+.image-container img {
+  max-width: 90%;
+}
+
 .collage-container {
   margin: auto;
   overflow-x: scroll;
@@ -42,7 +70,9 @@ body {
   max-width: 800px;
 }
 .collage-container .collage-inner {
+  padding: 2em;
   width: 1000px;
+  box-sizing: border-box;
 }
 .collage-container img {
   max-width: 90%;

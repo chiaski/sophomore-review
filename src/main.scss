@@ -8,14 +8,47 @@
 $bg: #1b1b1d;
 
 $text: #717474;
+$link: #c6cbcb;
 
 /* MAIN */
+
+html{
+    
+  scroll-behavior: smooth;
+}
 
 
 body{
     background: $bg;
     color: $text;
 }
+
+
+#menu{
+    position: fixed;
+    margin:1em;
+    z-index:9;
+    
+    strong{
+        padding:0 .5em;    
+    }
+    
+    a{
+        display: block;
+        color: $text;
+        text-decoration: none;
+        margin-bottom:.5em;
+        padding:.25em;
+        cursor: e-resize;
+        
+    }
+    
+    a:hover{
+        color: $link;
+    }
+    
+}
+
 
 .box-inner{
     margin:auto;
@@ -54,6 +87,15 @@ body{
 }
 
 
+.image-container{
+    
+    
+    img{
+        max-width:90%;
+    }
+    
+}
+
 .collage-container{
     
     margin: auto;
@@ -62,7 +104,9 @@ body{
     max-width:800px;
     
     .collage-inner{
+        padding:2em;
         width:1000px;
+        box-sizing: border-box;
     }
     
     img{
