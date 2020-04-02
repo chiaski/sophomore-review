@@ -198,7 +198,7 @@ progress::-moz-progress-bar {
   margin: auto;
   text-align: center;
 }
-.video-container iframe {
+.video-container video, .video-container iframe {
   width: 800px;
   height: 500px;
   margin: auto;
