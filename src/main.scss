@@ -156,7 +156,7 @@ progress::-moz-progress-bar {
   //  background: yellow;
     
     h4{
-        margin:.5em;
+        margin:0;
         text-transform: uppercase;
         letter-spacing: .75px;
     }
@@ -166,8 +166,9 @@ progress::-moz-progress-bar {
         font-family: 'Domaine Disp';
         font-size:2.5em;
         padding:.5em;
-        max-width:600px;
         margin: auto;
+        margin-bottom:.5em;
+        max-width:600px;
         line-height:1.1em;
     }
     
