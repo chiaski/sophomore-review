@@ -28,9 +28,29 @@ body{
     color: $text;
 }
 
+.box{
+    position: relative;
+}
+
+.box .box-bg{
+    position: absolute;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index: -99999;
+    overflow: hidden;
+    
+    video{
+        opacity: .3;
+        width:100%;
+        
+    }
+    
+}
 
 
-.box-inner{
+.box .box-inner{
+
     margin:auto;
     text-align: center;
 }
