@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background: #1b1b1d;
+  background: #131314;
   color: #717474;
 }
 
@@ -98,6 +98,15 @@ progress::-moz-progress-bar {
   margin: 0.5em;
   text-transform: uppercase;
   letter-spacing: 0.75px;
+}
+.piece h3 {
+  color: #bcbdbe;
+  font-family: "Domaine Disp";
+  font-size: 2.5em;
+  padding: 0.5em;
+  max-width: 600px;
+  margin: auto;
+  line-height: 1.1em;
 }
 .piece p {
   max-width: 80%;

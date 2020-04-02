@@ -5,12 +5,13 @@
 /* COLORS */
 
 
-$bg: #1b1b1d;
+$bg: #131314;
 
 $text: #717474;
 $link: #c6cbcb;
 
 
+$gray-dark: #1b1b1d;
 $gray-mid: #bcbdbe;
 
 /* MAIN */
@@ -154,6 +155,16 @@ progress::-moz-progress-bar {
         margin:.5em;
         text-transform: uppercase;
         letter-spacing: .75px;
+    }
+    
+    h3{
+        color: $gray-mid;
+        font-family: 'Domaine Disp';
+        font-size:2.5em;
+        padding:.5em;
+        max-width:600px;
+        margin: auto;
+        line-height:1.1em;
     }
     
     p{
