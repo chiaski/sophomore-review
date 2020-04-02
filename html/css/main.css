@@ -140,6 +140,25 @@ progress::-moz-progress-bar {
   max-width: 90%;
 }
 
+.pdf-container {
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  width: 900px;
+  height: 700px;
+  max-width: 90%;
+  text-align: center;
+}
+.pdf-container iframe {
+  position: absolute;
+  left: 0px;
+  border: 0;
+  box-shadow: 0 0 20px #000;
+  min-width: 900px;
+  margin: auto;
+  height: 100%;
+}
+
 .website-container {
   margin: auto;
   position: relative;
