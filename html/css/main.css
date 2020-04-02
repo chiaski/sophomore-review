@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* COLORS */
 /* MAIN */
 html {
@@ -51,7 +52,7 @@ progress::-moz-progress-bar {
 #menu {
   position: fixed;
   margin: 1em;
-  z-index: 9;
+  z-index: 999;
 }
 #menu strong {
   padding: 0 0.5em;
@@ -64,6 +65,8 @@ progress::-moz-progress-bar {
   padding: 0.25em;
   font-family: "Domaine Disp";
   cursor: e-resize;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 #menu a:hover {
   color: #c6cbcb;
@@ -109,6 +112,7 @@ progress::-moz-progress-bar {
   top: 0;
   padding: 1em;
   mix-blend-mode: difference;
+  z-index: 5;
 }
 .piece h4 {
   margin: 0;
@@ -124,6 +128,24 @@ progress::-moz-progress-bar {
   margin-bottom: 0.5em;
   max-width: 600px;
   line-height: 1.1em;
+}
+.piece a.full {
+  padding: 1em;
+  margin: 1em;
+  background: #000;
+  color: #626262;
+  box-shadow: 0 0 20px #1b1b1d;
+  display: inline-block;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.piece a.full:hover {
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.piece a.full::after {
+  content: " ↗︎";
+  font-family: "Segoe UI Symbol";
 }
 .piece p {
   max-width: 80%;
@@ -189,7 +211,7 @@ progress::-moz-progress-bar {
   margin: auto;
   position: relative;
   overflow: hidden;
-  width: 800px;
+  width: 900px;
   height: 600px;
   max-width: 90%;
   text-align: center;
