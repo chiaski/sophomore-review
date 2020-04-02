@@ -34,6 +34,38 @@ body{
 }
 
 
+
+
+// PROGRESS BAR
+
+progress {
+  /* Positioning */
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  /* Dimensions */
+  width: 100%;
+  height: 5px;
+
+  /* Reset the appearance */
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+
+  /* Get rid of the default border in Firefox/Opera. */
+  border: none;
+
+  /* Progress bar container for Firefox/IE10+ */
+  background-color: transparent;
+
+  /* Progress bar value for IE10+ */
+  color: red;
+}
+
+
+// MENU
+
 #menu{
     position: fixed;
     margin:1em;
@@ -43,13 +75,17 @@ body{
         padding:0 .5em;    
     }
     
+    
+    
     a{
         display: block;
         color: $text;
         text-decoration: none;
         margin-bottom:.5em;
         padding:.25em;
+        font-family: 'Domaine Disp';
         cursor: e-resize;
+     
         
     }
     
