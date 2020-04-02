@@ -63,7 +63,8 @@ progress {
   background-color: transparent;
 
   /* Progress bar value for IE10+ */
-  color: red;
+    mix-blend-mode: difference;
+  color: $text;
 }
 
 
@@ -154,6 +155,14 @@ progress::-moz-progress-bar {
     max-width:95%;
     text-align: center;
   //  background: yellow;
+    
+    .title{
+          position: -webkit-sticky; /* Safari */
+          position: sticky;
+        top:0;
+        padding:1em;
+        mix-blend-mode: difference;
+    }
     
     h4{
         margin:0;

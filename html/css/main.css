@@ -32,7 +32,8 @@ progress {
   /* Progress bar container for Firefox/IE10+ */
   background-color: transparent;
   /* Progress bar value for IE10+ */
-  color: red;
+  mix-blend-mode: difference;
+  color: #717474;
 }
 
 progress::-webkit-progress-bar {
@@ -100,6 +101,14 @@ progress::-moz-progress-bar {
   margin-bottom: 100px;
   max-width: 95%;
   text-align: center;
+}
+.piece .title {
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+  padding: 1em;
+  mix-blend-mode: difference;
 }
 .piece h4 {
   margin: 0;
