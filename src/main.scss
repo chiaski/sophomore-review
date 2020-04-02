@@ -12,6 +12,7 @@ $link: #c6cbcb;
 
 
 $gray-dark: #1b1b1d;
+$gray-middark: #626262;
 $gray-mid: #bcbdbe;
 
 /* MAIN */
@@ -133,7 +134,10 @@ progress::-moz-progress-bar {
     }
     
     h3{
-        
+        font-size:.8em;
+        margin:0;
+        text-transform: uppercase;
+        letter-spacing: .75px;
     }
 }
 
