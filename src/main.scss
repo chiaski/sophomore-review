@@ -198,7 +198,6 @@ progress::-moz-progress-bar {
         font-size:2.5em;
         padding:.5em;
         margin: auto;
-        margin-bottom:.5em;
         max-width:600px;
         line-height:1.1em;
     }
@@ -207,9 +206,10 @@ progress::-moz-progress-bar {
     
     a.full{
         padding:1em;
+        text-decoration: none;
         margin:1em;
         background: #000;
-        color: $gray-middark;
+        color: $gray-mid;
         box-shadow:0 0 20px $gray-dark;
         display: inline-block;
         
@@ -219,7 +219,6 @@ progress::-moz-progress-bar {
     
     a.full:hover{
         transform: translateY(-2px);
-        text-decoration: none;
         color: $gray-mid;
     }
     
@@ -321,6 +320,7 @@ progress::-moz-progress-bar {
 
 .website-container{
     
+    background: $gray-dark;
     margin: auto;
     position: relative;
     overflow: hidden;
@@ -328,6 +328,9 @@ progress::-moz-progress-bar {
     height:600px;
     max-width:90%;
     text-align: center;
+    line-height:600px;
+    font-size:1.4em;
+    color: $gray-mid;
 
     
     iframe{

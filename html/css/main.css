@@ -142,15 +142,15 @@ progress::-moz-progress-bar {
   font-size: 2.5em;
   padding: 0.5em;
   margin: auto;
-  margin-bottom: 0.5em;
   max-width: 600px;
   line-height: 1.1em;
 }
 .piece a.full {
   padding: 1em;
+  text-decoration: none;
   margin: 1em;
   background: #000;
-  color: #626262;
+  color: #bcbdbe;
   box-shadow: 0 0 20px #1b1b1d;
   display: inline-block;
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -158,7 +158,6 @@ progress::-moz-progress-bar {
 }
 .piece a.full:hover {
   transform: translateY(-2px);
-  text-decoration: none;
   color: #bcbdbe;
 }
 .piece a.full::after {
@@ -226,6 +225,7 @@ progress::-moz-progress-bar {
 }
 
 .website-container {
+  background: #1b1b1d;
   margin: auto;
   position: relative;
   overflow: hidden;
@@ -233,6 +233,9 @@ progress::-moz-progress-bar {
   height: 600px;
   max-width: 90%;
   text-align: center;
+  line-height: 600px;
+  font-size: 1.4em;
+  color: #bcbdbe;
 }
 .website-container iframe {
   position: absolute;

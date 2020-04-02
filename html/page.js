@@ -11,6 +11,24 @@ $(document).ready(function() {
     });
 
 
+function load(what){
+    
+    switch(what){
+            
+        case "everythingsaved":
+            $("#everythingsaved").append('<iframe src="https://chia.dev/nintendo/a%20game.html"></iframe>');
+            break;
+            
+        case "fifteen":
+            $("#fifteen").append('<iframe src="https://chia.dev/fifteen/parti.html"></iframe>');
+            break;
+            
+    }
+    
+    
+}
+
+
 
 $(document).ready(function(){
     
