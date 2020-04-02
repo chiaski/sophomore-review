@@ -10,6 +10,9 @@ $bg: #1b1b1d;
 $text: #717474;
 $link: #c6cbcb;
 
+
+$gray-mid: #bcbdbe;
+
 /* MAIN */
 
 html{
@@ -21,6 +24,13 @@ html{
 body{
     background: $bg;
     color: $text;
+}
+
+
+
+.box-inner{
+    margin:auto;
+    text-align: center;
 }
 
 
@@ -50,16 +60,29 @@ body{
 }
 
 
-.box-inner{
-    margin:auto;
-    text-align: center;
-}
+
+
 
 
 #intro{
-    min-height:50%;
+    min-height:500px;
+    
+    .box-inner{
+        max-width:600px;
+    }
+    
     h1{
+        font-size:3.2em;
+        color: $gray-mid;
         margin:0;
+        padding:.5em;
+        box-sizing: border-box;
+    font-family: 'Domaine Disp';
+        
+    }
+    
+    h3{
+        
     }
 }
 
@@ -76,6 +99,12 @@ body{
     max-width:95%;
     text-align: center;
   //  background: yellow;
+    
+    h4{
+        margin:.5em;
+        text-transform: uppercase;
+        letter-spacing: .75px;
+    }
     
     p{
         max-width:80%;
@@ -160,5 +189,40 @@ body{
     }
     
     
+}
+
+
+
+
+@font-face {
+    font-family: 'Domaine Disp';
+    src: url('DomaineDispSemibold.woff2') format('woff2'),
+        url('DomaineDispSemibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Domaine Disp';
+    src: url('DomaineDisp-Regular.woff2') format('woff2'),
+        url('DomaineDisp-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Domaine Disp';
+    src: url('DomaineDisp-RegularItalic.woff2') format('woff2'),
+        url('DomaineDisp-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Domaine Disp';
+    src: url('DomaineDispSemibold-Italic.woff2') format('woff2'),
+        url('DomaineDispSemibold-Italic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
 }
 
