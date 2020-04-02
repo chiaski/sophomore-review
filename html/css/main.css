@@ -142,6 +142,7 @@ progress::-moz-progress-bar {
 .piece a.full:hover {
   transform: translateY(-2px);
   text-decoration: none;
+  color: #bcbdbe;
 }
 .piece a.full::after {
   content: " ↗︎";
@@ -218,7 +219,7 @@ progress::-moz-progress-bar {
 }
 .website-container iframe {
   position: absolute;
-  left: -100px;
+  left: -50px;
   border: 0;
   box-shadow: 0 0 20px #000;
   min-width: 1000px;
