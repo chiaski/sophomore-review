@@ -234,8 +234,9 @@ progress::-moz-progress-bar {
   max-width: 90%;
   text-align: center;
   line-height: 600px;
-  font-size: 1.4em;
-  color: #bcbdbe;
+  font-size: 2.9em;
+  font-family: "Domaine Disp";
+  color: #fff;
 }
 .website-container iframe {
   position: absolute;
