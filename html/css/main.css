@@ -177,12 +177,12 @@ progress::-moz-progress-bar {
 .collage-container {
   margin: auto;
   overflow-x: scroll;
-  width: 950px;
-  max-width: 95%;
+  width: 900px;
+  max-width: 90%;
 }
 .collage-container .collage-inner {
-  padding: 2em;
-  width: 1000px;
+  padding: 0em;
+  width: 1200px;
   box-sizing: border-box;
 }
 .collage-container img {
