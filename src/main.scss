@@ -136,15 +136,6 @@ progress::-moz-progress-bar {
 
 
 
-
-
-#intro{
-    min-height:500px;
-    
-    .box-inner{
-        max-width:600px;
-    }
-    
     h1{
         font-size:3.2em;
         color: $gray-mid;
@@ -154,6 +145,15 @@ progress::-moz-progress-bar {
     font-family: 'Domaine Disp';
         
     }
+
+
+#intro{
+    min-height:500px;
+    
+    .box-inner{
+        max-width:600px;
+    }
+    
     
     h3{
         font-size:.8em;
@@ -161,6 +161,13 @@ progress::-moz-progress-bar {
         text-transform: uppercase;
         letter-spacing: .75px;
     }
+}
+
+
+#end{
+    
+    min-height:500px;
+    
 }
 
 #work{

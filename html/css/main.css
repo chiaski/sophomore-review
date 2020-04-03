@@ -89,13 +89,7 @@ progress::-moz-progress-bar {
   color: #c6cbcb;
 }
 
-#intro {
-  min-height: 500px;
-}
-#intro .box-inner {
-  max-width: 600px;
-}
-#intro h1 {
+h1 {
   font-size: 3.2em;
   color: #bcbdbe;
   margin: 0;
@@ -103,11 +97,22 @@ progress::-moz-progress-bar {
   box-sizing: border-box;
   font-family: "Domaine Disp";
 }
+
+#intro {
+  min-height: 500px;
+}
+#intro .box-inner {
+  max-width: 600px;
+}
 #intro h3 {
   font-size: 0.8em;
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 0.75px;
+}
+
+#end {
+  min-height: 500px;
 }
 
 #work {
