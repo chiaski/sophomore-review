@@ -152,7 +152,7 @@ h1 {
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 0.75px;
-  font-weight: 300;
+  font-weight: 400;
 }
 .piece h3 {
   color: #bcbdbe;
@@ -183,8 +183,11 @@ h1 {
   font-family: "Segoe UI Symbol";
 }
 .piece p {
-  max-width: 80%;
+  width: 80%;
+  color: #bcbdbe;
+  max-width: 600px;
   margin: auto;
+  display: block;
   padding: 2em 0;
 }
 

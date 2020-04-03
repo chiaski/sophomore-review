@@ -25,7 +25,7 @@ function load(what){
             
             
         case "systems":
-            $("#systems").append('<iframe src="http://noob.systems"></iframe>');
+            $("#systems").append('<iframe src="https://noobsystems.herokuapp.com/"></iframe>');
             break;
             
     }
