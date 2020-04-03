@@ -70,6 +70,11 @@ progress::-moz-progress-bar {
   background-color: #717474;
 }
 
+code {
+  padding: 0.5em;
+  font-size: 0.8em;
+}
+
 #menu {
   position: fixed;
   margin: 1em;
@@ -130,6 +135,7 @@ h1 {
   margin-bottom: 100px;
   max-width: 95%;
   text-align: center;
+  background-size: contain;
 }
 .piece .title {
   position: -webkit-sticky;

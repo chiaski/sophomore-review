@@ -103,6 +103,17 @@ progress::-moz-progress-bar {
 }
 
 
+
+// ELEMENTS
+
+code{
+    padding:.5em;
+    font-size:.8em;
+}
+
+
+
+
 // MENU
 
 #menu{
@@ -184,6 +195,7 @@ progress::-moz-progress-bar {
     margin-bottom:100px;
     max-width:95%;
     text-align: center;
+    background-size: contain;
   //  background: yellow;
     
     .title{
