@@ -23,6 +23,11 @@ function load(what){
             $("#fifteen").append('<iframe src="https://chia.dev/fifteen/parti.html"></iframe>');
             break;
             
+            
+        case "systems":
+            $("#systems").append('<iframe src="http://noob.systems"></iframe>');
+            break;
+            
     }
     
     
