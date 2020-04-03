@@ -196,6 +196,7 @@ code{
     max-width:95%;
     text-align: center;
     background-size: contain;
+    background-blend-mode: lighten;
   //  background: yellow;
     
     .title{
@@ -354,6 +355,9 @@ code{
     font-size:2.9em;
     font-family: 'Domaine Disp';
     color: #fff;
+    
+        transition: all .3s  cubic-bezier(0.645, 0.045, 0.355, 1);
+        -webkit-transition: all .3s cubic-bezier(0.645, 0.045, 0.355, 1);
 
     
     iframe{
@@ -367,6 +371,10 @@ code{
     }
     
     
+}
+
+.website-container:hover{
+    text-shadow:0 0 15px #fff;
 }
 
 
