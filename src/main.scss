@@ -194,6 +194,7 @@ code{
     box-sizing: border-box;
     margin-bottom:100px;
     max-width:95%;
+    min-height: 90%;
     text-align: center;
     background-size: contain;
     background-blend-mode: lighten;
@@ -212,6 +213,7 @@ code{
         margin:0;
         text-transform: uppercase;
         letter-spacing: .75px;
+        font-weight: 300;
     }
     
     h3{

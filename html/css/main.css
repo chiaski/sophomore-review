@@ -134,6 +134,7 @@ h1 {
   box-sizing: border-box;
   margin-bottom: 100px;
   max-width: 95%;
+  min-height: 90%;
   text-align: center;
   background-size: contain;
   background-blend-mode: lighten;
@@ -151,6 +152,7 @@ h1 {
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 0.75px;
+  font-weight: 300;
 }
 .piece h3 {
   color: #bcbdbe;
