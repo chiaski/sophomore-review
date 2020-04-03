@@ -190,10 +190,12 @@ code{
 
 
 .piece{
+    
     margin: auto;
     box-sizing: border-box;
     margin-bottom:100px;
     max-width:95%;
+    width: 100%;
     min-height: 90%;
     text-align: center;
     background-size: contain;
@@ -211,16 +213,23 @@ code{
     
     h4{
         margin:0;
+        padding:.1em .5em;
         text-transform: uppercase;
         letter-spacing: .75px;
         font-weight: 400;
+        background: $gray-mid;
+        color: $gray-dark;
+        display: inline-block;
+        width: auto;
+        max-width:190px;
+        border-radius:5px;
     }
     
     h3{
         color: $gray-mid;
         font-family: 'Domaine Disp';
         font-size:2.5em;
-        padding:.5em;
+        padding: .3em .5em .5em .5em;
         margin: auto;
         max-width:600px;
         line-height:1.1em;
@@ -260,6 +269,7 @@ code{
         margin: auto;
         display: block;
         padding:2em 0;
+        text-align: justify;
     }
     
     
